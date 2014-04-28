@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/lib/libaf_lg_2.0.so:system/lib/libaf_lg_2.0.so \
     vendor/lge/p970/proprietary/lib/hw/sensors.omap3.so:system/lib/hw/sensors.omap3.so \
     vendor/lge/p970/proprietary/lib/hw/gps.omap3.so:system/lib/hw/gps.omap3.so \
+    vendor/lge/p970/proprietary/lib/hw/lights.p970.so:system/lib/hw/lights.p970.so \
     vendor/lge/p970/proprietary/lib/hw/camera.omap3.so:system/lib/hw/camera.omap3.so \
     vendor/lge/p970/proprietary/lib/libini.so:system/lib/libini.so \
     vendor/lge/p970/proprietary/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
@@ -120,4 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so
+    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
+    vendor/lge/p970/proprietary/bin/gfx_check:system/bin/gfx_check \
+    vendor/lge/p970/proprietary/etc/powervr.ini:system/etc/powervr.ini
