@@ -116,11 +116,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/lge/p970/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/lge/p970/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
     vendor/lge/p970/proprietary/bin/gfx_check:system/bin/gfx_check \
     vendor/lge/p970/proprietary/etc/powervr.ini:system/etc/powervr.ini
