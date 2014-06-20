@@ -20,6 +20,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
     vendor/lge/p880/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
+    vendor/lge/p880/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_e0000000.bin:system/etc/firmware/nvavp_os_e0000000.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/lge/p880/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -41,12 +49,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/lge/p880/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p880/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
-    vendor/lge/p880/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/lge/p880/proprietary/lib/libmlFIFO.so:system/lib/libmlFIFO.so \
+    vendor/lge/p880/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/lge/p880/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/lge/p880/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/p880/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    vendor/lge/p880/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
+    vendor/lge/p880/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
     vendor/lge/p880/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
+    vendor/lge/p880/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
     vendor/lge/p880/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/lge/p880/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/lge/p880/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
@@ -56,20 +67,30 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
     vendor/lge/p880/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/lge/p880/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
+    vendor/lge/p880/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
     vendor/lge/p880/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
     vendor/lge/p880/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
+    vendor/lge/p880/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/lge/p880/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
     vendor/lge/p880/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
+    vendor/lge/p880/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
     vendor/lge/p880/proprietary/lib/libnvmm_manager.so:system/lib/libnvmm_manager.so \
+    vendor/lge/p880/proprietary/lib/libnvmm_misc.so:system/lib/libnvmm_misc.so \
+    vendor/lge/p880/proprietary/lib/libnvmm_parser.so:system/lib/libnvmm_parser.so \
     vendor/lge/p880/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
     vendor/lge/p880/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
+    vendor/lge/p880/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
+    vendor/lge/p880/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite.so:system/lib/libnvmmlite.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite_image.so:system/lib/libnvmmlite_image.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
-    vendor/lge/p880/proprietary/lib/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite_utils.so:system/lib/libnvmmlite_utils.so \
+    vendor/lge/p880/proprietary/lib/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \
+    vendor/lge/p880/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
+    vendor/lge/p880/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
     vendor/lge/p880/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
+    vendor/lge/p880/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
     vendor/lge/p880/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/lge/p880/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
     vendor/lge/p880/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
@@ -84,12 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/lge/p880/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p880/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/lge/p880/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/lge/p880/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
 
 # DRM
@@ -108,36 +123,36 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/vendor/lib/libcgdrv_so:system/vendor/lib/libcgdrv_so \
     vendor/lge/p880/proprietary/vendor/lib/libjpeg_so:system/vendor/lib/libjpeg_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvavp_so:system/vendor/lib/libnvavp_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvcamerahdr_so:system/vendor/lib/libnvcamerahdr_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvcapclk_so:system/vendor/lib/libnvcapclk_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvcap_so:system/vendor/lib/libnvcap_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvcap_video_so:system/vendor/lib/libnvcap_video_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvcpud_client_so:system/vendor/lib/libnvcpud_client_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvddk_2d_so:system/vendor/lib/libnvddk_2d_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvddk_2d_v2_so:system/vendor/lib/libnvddk_2d_v2_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvglsi_so:system/vendor/lib/libnvglsi_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvmm_camera_so:system/vendor/lib/libnvmm_camera_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvmm_contentpipe_so:system/vendor/lib/libnvmm_contentpipe_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmm_manager_so:system/vendor/lib/libnvmm_manager_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmm_service_so:system/vendor/lib/libnvmm_service_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmm_so:system/vendor/lib/libnvmm_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmm_utils_so:system/vendor/lib/libnvmm_utils_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvomxadaptor_so:system/vendor/lib/libnvomxadaptor_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvomxilclient_so:system/vendor/lib/libnvomxilclient_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvos_so:system/vendor/lib/libnvos_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvrm_graphics_so:system/vendor/lib/libnvrm_graphics_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvrm_so:system/vendor/lib/libnvrm_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvwsi_so:system/vendor/lib/libnvwsi_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvomx_so:system/vendor/lib/libnvomx_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvodm_imager_so:system/vendor/lib/libnvodm_imager_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvodm_query_so:system/vendor/lib/libnvodm_query_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvmm_contentpipe_so:system/vendor/lib/libnvmm_contentpipe_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvwinsys_so:system/vendor/lib/libnvwinsys_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_so:system/vendor/lib/libnvmmlite_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_utils_so:system/vendor/lib/libnvmmlite_utils_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvtvmr_so:system/vendor/lib/libnvtvmr_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvmm_camera_so:system/vendor/lib/libnvmm_camera_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvsm_so:system/vendor/lib/libnvsm_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_audio_so:system/vendor/lib/libnvmmlite_audio_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_video_so:system/vendor/lib/libnvmmlite_video_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_image_so:system/vendor/lib/libnvmmlite_image_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_msaudio_so:system/vendor/lib/libnvmmlite_msaudio_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_so:system/vendor/lib/libnvmmlite_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_utils_so:system/vendor/lib/libnvmmlite_utils_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvmmlite_video_so:system/vendor/lib/libnvmmlite_video_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvodm_imager_so:system/vendor/lib/libnvodm_imager_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvodm_query_so:system/vendor/lib/libnvodm_query_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvomxadaptor_so:system/vendor/lib/libnvomxadaptor_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvomxilclient_so:system/vendor/lib/libnvomxilclient_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvomx_so:system/vendor/lib/libnvomx_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvos_so:system/vendor/lib/libnvos_so \
     vendor/lge/p880/proprietary/vendor/lib/libnvparser_so:system/vendor/lib/libnvparser_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvglsi_so:system/vendor/lib/libnvglsi_so \
-    vendor/lge/p880/proprietary/vendor/lib/libnvcamerahdr_so:system/vendor/lib/libnvcamerahdr_so
+    vendor/lge/p880/proprietary/vendor/lib/libnvrm_graphics_so:system/vendor/lib/libnvrm_graphics_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvrm_so:system/vendor/lib/libnvrm_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvsm_so:system/vendor/lib/libnvsm_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvtvmr_so:system/vendor/lib/libnvtvmr_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvwinsys_so:system/vendor/lib/libnvwinsys_so \
+    vendor/lge/p880/proprietary/vendor/lib/libnvwsi_so:system/vendor/lib/libnvwsi_so
