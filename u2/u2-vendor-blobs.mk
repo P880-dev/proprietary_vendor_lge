@@ -22,8 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/u2/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/lge/u2/proprietary/lib/libini.so:system/lib/libini.so \
     vendor/lge/u2/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
-    vendor/lge/u2/proprietary/lib/libhdcp.so:system/lib/libhdcp.so \
-    vendor/lge/u2/proprietary/lib/liblgehdmi.so:system/lib/liblgehdmi.so \
     vendor/lge/u2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/u2/proprietary/vendor/lib/libPVRScopeServices_SGX540_120.so:system/vendor/lib/libPVRScopeServices_SGX540_120.so \
     vendor/lge/u2/proprietary/vendor/lib/liblvverx.so:system/vendor/lib/liblvverx.so \
